@@ -9,7 +9,14 @@
     <form action="" method="post">
       <div>
         <label for="nome">Nome</label>
-        <input type="text" name="nome" id="nome" />
+        <input
+          required
+          minlength="5"
+          maxlength="10"
+          type="text"
+          name="nome"
+          id="nome"
+        />
       </div>
       <div>
         <label for="email">Email</label>
@@ -17,11 +24,15 @@
       </div>
       <div>
         <fieldset>
-          <caption>
-            Assunto:
-          </caption>
+          <legend>Assunto:</legend>
 
-          <input type="radio" name="assunto" id="compra" value="compra" />
+          <input
+            required
+            type="radio"
+            name="assunto"
+            id="compra"
+            value="compra"
+          />
           <label for="compra">Compra</label>
           <label>
             <input
