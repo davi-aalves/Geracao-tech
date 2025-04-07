@@ -6,9 +6,12 @@
     <title>Formulários</title>
   </head>
   <body>
-    <form action="">
+    <h1>Exemplos de formulários</h1>
+
+    <form action="" method="post">
       <div>
-        <label for="nome">Nome</label> <input type="text" name="nome" id="" />
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" />
       </div>
 
       <div>
@@ -18,10 +21,24 @@
 
       <div>
         <label for="senha">Senha</label>
-        <input type="password" name="password" id="senha" />
+        <input type="password" name="senha" id="senha" />
       </div>
 
-      <input type="button" value="Enviar" />
+      <div>
+        <label for="checkbox">Checkbox</label>
+        <input type="checkbox" name="checkbox" id="checkbox" />
+      </div>
+
+      <div>
+        <label for="date">Data</label>
+        <input type="date" name="date" id="date" />
+      </div>
+
+      <div>
+        <label for="date-time">Data e hora</label>
+        <input type="datetime-local" name="date-time" id="date-time" />
+      </div>
+      <input type="submit" value="Enviar" />
     </form>
   </body>
 </html>
