@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Underdog&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: bisque;
+  font-family: "Underdog", sans-serif;
+  font-size: 10px;
+}
+
+p {
+  font-size: 2em;
+}
