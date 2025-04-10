@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  position: absolute;
+}
+
+main {
+  width: 800px;
+  height: 600px;
+  background-color: #bad79b;
+}
+
+.div-1 {
+  width: 100px;
+  height: 100px;
+  background-color: #4ba6a3;
+  position: absolute;
+  right: 0px;
+  bottom: 0;
+}
+
+.div-2 {
+  width: 100px;
+  height: 100px;
+  background-color: #4a8c68;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
