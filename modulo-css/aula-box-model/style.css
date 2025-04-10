@@ -1,0 +1,12 @@
+* {
+  color: cadetblue;
+}
+
+div {
+  padding: 20px;
+  width: 400px;
+  height: 280px;
+  background-color: bisque;
+  margin: 0 auto;
+  border: 2px solid black;
+}
