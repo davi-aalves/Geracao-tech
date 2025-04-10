@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #70818c;
+}
+
+li {
+  float: left;
+  margin-right: 16px;
+  background-color: #031740;
+  color: #364959;
+}
