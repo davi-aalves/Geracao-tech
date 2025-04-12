@@ -20,7 +20,47 @@ header {
   flex-direction: column;
 }
 
+header div {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: space-between;
+}
+
 ul {
   display: flex;
   gap: 10px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 80%;
+  padding: 20px;
+  background-color: #545952;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.bloco-1 {
+  width: 120px;
+  height: 120px;
+  background-color: #828c7b;
+}
+
+.bloco-2 {
+  width: 120px;
+  height: 160px;
+  background-color: #828c7b;
+}
+
+.bloco-3 {
+  width: 120px;
+  height: 200px;
+  background-color: #828c7b;
 }
