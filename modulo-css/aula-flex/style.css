@@ -47,20 +47,29 @@ main {
   align-items: center;
 }
 
-.bloco-1 {
+.container div {
   width: 120px;
   height: 120px;
   background-color: #828c7b;
+  color: #d0e5f2;
+}
+
+.bloco-1 {
+  order: 2;
 }
 
 .bloco-2 {
-  width: 120px;
-  height: 160px;
-  background-color: #828c7b;
+  order: 1;
 }
 
 .bloco-3 {
-  width: 120px;
-  height: 200px;
-  background-color: #828c7b;
+  order: 5;
+}
+
+.bloco-4 {
+  order: 3;
+}
+
+.bloco-5 {
+  order: 4;
 }
