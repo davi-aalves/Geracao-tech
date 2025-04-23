@@ -12,18 +12,69 @@
     <title>Login</title>
   </head>
   <body>
-    <div class="d-flex justify-content-center align-items-center vh-100 vw-100">
-      <div class="w-25">
-        <h1 class="h3 text-center mb-4">Login</h1>
+    <div
+      class="d-flex justify-content-center align-items-center min-vh-100 w-100"
+    >
+      <div class="w-25 py-5">
+        <h1 class="h3 text-center mb-4">Cadastro</h1>
         <form action="">
           <div class="mb-3">
+            <label class="form-label" for="username">Nome de usuário</label>
+            <div class="input-group">
+              <span class="input-group-text">@</span>
+              <input
+                class="form-control"
+                type="text"
+                name="username"
+                id="username"
+              />
+            </div>
+          </div>
+          <div class="mb-3">
             <label class="form-label" for="email">Email</label>
-            <input
-              class="form-control mb-2"
-              type="email"
-              name="email"
-              id="email"
-            />
+            <div class="input-group">
+              <input
+                class="form-control"
+                type="email"
+                name="email"
+                id="email"
+              />
+              <span class="input-group-text">@exemplo.com</span>
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label" for="sex">Gênero</label>
+            <select class="form-select" name="sex" id="sex">
+              <option value="" selected>Selecione um item</option>
+              <option value="">Homem Cis</option>
+              <option value="">Homem Trans</option>
+              <option value="">Mulher Cis</option>
+              <option value="">Mulher Trans</option>
+              <option value="">Outros</option>
+            </select>
+          </div>
+
+          <label class="form-label">Escolha sua profissão</label>
+          <div class="mb-3">
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="job"
+                id="job1"
+              />
+              <label class="form-label" for="job">Estudante</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="job"
+                id="job2"
+              />
+              <label class="form-label" for="job">Engenheiro</label>
+            </div>
           </div>
 
           <div class="mb-3">
@@ -41,6 +92,19 @@
             </div>
           </div>
 
+          <div class="mb-3">
+            <label class="form-label" for="confirm-password"
+              >Confirmar senha</label
+            >
+            <input
+              class="form-control"
+              type="password"
+              name="confirm-password"
+              id="confirm-password"
+            />
+            <div class="form-text">As senhas devem ser identicas</div>
+          </div>
+
           <div class="mb-3 form-check form-switch">
             <input
               class="form-check-input"
@@ -53,7 +117,7 @@
               for="checkbox"
               name="checkbox"
               id="checkbox"
-              >Salvar meus dados</label
+              >Concordo com os Termos e Serviços</label
             >
           </div>
           <button class="btn btn-primary w-100">Entrar</button>
