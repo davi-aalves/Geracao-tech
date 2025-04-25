@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Tuffy:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Tuffy", sans-serif;
+}
+
+body {
+  height: 100vh;
+}
+
+header h2 {
+  background-color: #880781;
+  color: white;
+  text-align: center;
+  padding: 0.4rem;
+  font-weight: 700;
+  font-size: 1.6em;
+}
+
+.banner {
+  height: 25vh;
+  background-color: #9842d9;
+}
+
+main .primeiro-titulo,
+.segundo-titulo {
+  margin-top: 5rem;
+  margin-bottom: 0.6rem;
+  width: 0 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.8rem;
+  color: #880781;
+}
+
+hr {
+  width: 12%;
+  margin: 0 auto;
+  border: 1px solid #880781;
+  margin-bottom: 4rem;
+}
+
+.descricao-inicial {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 40%;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #880781;
+  font-weight: 700;
+}
+
+.circulo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #9842d9;
+}
+
+footer {
+  margin-top: 5rem;
+  background-color: #880781;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  padding: 10px;
+  font-size: 1.2em;
+}
