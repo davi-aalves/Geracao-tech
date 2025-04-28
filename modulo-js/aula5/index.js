@@ -1,3 +1,16 @@
+/* 
+Operadores em JavaScript:
+- Atribuição: =, +=, -=, *=, /=, %=
+- Aritméticos: +, -, *, /, %
+- Comparação: ==, ===, !=, !==, >, <, >=, <=
+- Lógicos:
+  - AND (&&): Retorna verdadeiro se ambos os operandos forem verdadeiros.
+  - OR (||): Retorna verdadeiro se pelo menos um dos operandos for verdadeiro.
+  - NOT (!): Inverte o valor lógico do operando.
+
+
+*/
+
 let num1 = Number(prompt("Digite o primeiro número:"));
 let num2 = Number(prompt("Digite o segundo número:"));
 
