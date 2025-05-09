@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>String Methods</title>
+  </head>
+  <body>
+    <h1>String Methods & Arrays Methods</h1>
+    <p>
+      Explore os métodos de string e arrays em JavaScript. (Confira no Console)
+    </p>
+
+    <script>
+      // Exemplo de uso de métodos de string
+      const str = "Hello, World!";
+      console.log(str.toUpperCase()); // "HELLO, WORLD!"
+      console.log(str.toLowerCase()); // "hello, world!"
+      console.log(str.length); // 13
+      console.log(str.indexOf("World")); // 7
+      console.log(str.slice(0, 5)); // "Hello"
+
+      // Exemplo de uso de métodos de arrays
+      const arr = [1, 2, 3, 4, 5, 6, 7];
+      console.log(arr.length); // 5
+      console.log(arr.indexOf(3)); // 2
+      console.log(arr.slice(1, 4)); // [2, 3, 4]
+      console.log(arr.join(", ")); // "1, 2, 3, 4, 5"
+      console.log(arr.reverse()); // [5, 4, 3, 2, 1]
+      console.log(arr.filter((item) => item % 2 != 0));
+    </script>
+  </body>
+</html>
