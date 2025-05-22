@@ -5,6 +5,7 @@ import Componente1, {
   Componente3,
 } from "./components/VariosComponentes";
 import FormaDeBolo from "./components/FormaDeBolo";
+import Card from "./components/Card";
 
 const App = () => {
   return (
@@ -14,8 +15,13 @@ const App = () => {
       <Banner />
       <Componente1 />
       <Componente2 />
-      <Componente3 /> */}
-      <FormaDeBolo sabor="Cenoura" cobertura="Chocolate" />
+      <Componente3 />
+      <FormaDeBolo sabor="Cenoura" cobertura="Chocolate" /> */}
+      <Card
+        title={"Card 1"}
+        category={"Categoria 1"}
+        text={"Texto para teste."}
+      />
     </>
   );
 };
