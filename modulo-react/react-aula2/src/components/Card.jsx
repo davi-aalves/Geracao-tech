@@ -1,9 +1,14 @@
-const Card = (title, category, text) => {
+const Card = ({ image, title, category, text, type }) => {
   return (
     <div style={{ border: "1px solid black" }}>
+      <img src={image} alt="" />
       <h2>{title}</h2>
-      <h5>{category}</h5>
-      <p>{text}</p>
+      {type == "A" && (
+        <>
+          <h6>{category}</h6>
+          <p>{text}</p>
+        </>
+      )}
     </div>
   );
 };
